@@ -89,7 +89,6 @@ public class PessoaUtil {
 		String gender = getGender(user);
 		byte[] photo = getPhoto(user);
 		String email = user.get("email").toString();
-		System.out.println(email);
 
 		Map<String, String> loginMap = (Map<String, String>) user.get("login");
 		String username = loginMap.get("username");
